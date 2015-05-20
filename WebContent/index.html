@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="stockQuote.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="s.css">
+  </head>
+  <body id="bdy">
+    <div id="hdr">
+       <div id="frm" tooltip="Comma Delimited Ticker Symbols. Ex: IBM, AAPL, GOOG">
+         <input type="text" id="idStockSymbols"/>
+       </div>
+   </div>
+    <div id="content">
+	    <div id="resultTables"></div>
+	    <article id="articleAbout">
+	     <p>This stock quote generator is a little weekend project I did for a bit of fun.</p> 
+	     <p>As a note, the backend will barf if the potential input symbols are not within five alphabetic characters
+	      and will ignore symbols that are not recognized by YQL.</p>
+	    </article>
+    </div>
+    <footer id="ftr">Created by, Menard "Ren" Soliven. Feel free to send me an email at "ren@zel.io".</footer>
+  </body>
+
+</html>

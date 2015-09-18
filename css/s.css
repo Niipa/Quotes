@@ -11,6 +11,7 @@
 #resultTables {
     font-family: georgia;
     position: relative;
+    margin-top: 15%;
 }
 .classStockTables{
 	position:relative;
@@ -78,6 +79,7 @@
     position: fixed;
     top: 0;
     width: 99%;
+    margin-top:1%;
 }
 #ftr{
 	position: fixed;
@@ -90,4 +92,10 @@
 	position:relative;
 	margin-top: 10%;
 	font-family: georgia;
+}
+#imgBack{
+  position:fixed;
+  width:1.5%;
+  left:0.25%;
+  bottom:0.25%;
 }

@@ -36,7 +36,7 @@ var onEnter = function(){
     cbOnYQLFinish(JSON.parse(req.responseText));
   }
   
-  req.open("GET", "http://zel.io/yql?in=" + 
+  req.open("GET", "http://zel.io:8080/quotes/yql?in=" + 
     document.getElementById("idStockSymbols").value, true);
   req.send();
   
@@ -137,6 +137,3 @@ idStockSymbols.addEventListener("blur", function(e){
 	document.getElementById("frm").style.borderColor = "#B0B0B0";
 });
 idStockSymbols.focus();
-
-
-
